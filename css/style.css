@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Monserrat", sans-serif;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: rgb(69, 70, 71);
+}
+
+.welcome-h2 {
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.h2-ourservice {
+  color: black;
+}
+
+header {
+  background-image: url("../assets/image/compu-1.jpg");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.seccion1 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seccion2-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-card {
+  height: 26px;
+  width: 26px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.computadoras {
+  text-align: center;
+}
+
+.seccion3 {
+  background-color: rgb(210, 210, 210);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seccion3 h2 {
+  padding: 20px;
+}
+
+.seccion4 {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "tarjeta1 tarjeta2 tarjeta5" "tarjeta3 tarjeta4 tarjeta5";
+}
+
+.tarjeta1 {
+  grid-area: tarjeta1;
+}
+.tarjeta1 p, .tarjeta1 h2 {
+  color: black;
+}
+
+.tarjeta2 {
+  grid-area: tarjeta2;
+}
+.tarjeta2 p, .tarjeta2 h2 {
+  color: black;
+}
+
+.tarjeta3 {
+  grid-area: tarjeta3;
+}
+.tarjeta3 p, .tarjeta3 h2 {
+  color: black;
+}
+
+.tarjeta4 {
+  grid-area: tarjeta4;
+}
+.tarjeta4 p, .tarjeta4 h2 {
+  color: black;
+}
+
+.tarjeta5 {
+  grid-area: tarjeta5;
+}
+.tarjeta5 p, .tarjeta5 h2 {
+  color: black;
+}
+
+footer {
+  background-image: url("../assets/image/compu-1.jpg");
+}
+
+.footer-redes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-contact, .footer-service, .footer-quick {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.container-footer {
+  display: flex;
+}
+
+.imagen-footer {
+  height: 80px;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.footer-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-two .section-right ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  gap: 20px;
+}
+
+.section-right a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

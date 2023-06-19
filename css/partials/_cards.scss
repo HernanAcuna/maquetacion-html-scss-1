@@ -1,0 +1,27 @@
+.cards{
+  display: flex;
+  justify-content: space-between
+  }
+.seccion2-cards{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.icon-card{
+  height: 26px;
+  width: 26px;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+}
+
+.computadoras{
+text-align: center;
+}

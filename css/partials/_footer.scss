@@ -1,0 +1,51 @@
+footer{
+  background-image: url("../assets/image/compu-1.jpg");
+
+}
+
+
+.footer-redes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.footer-contact, .footer-service, .footer-quick{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.container-footer{
+  display: flex;
+
+}
+.imagen-footer{
+  height: 80px;
+}
+.container-left{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+}
+.footer-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .section-right ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    gap: 20px;
+    
+    
+    
+  }
+}
+.section-right a {
+  text-decoration: none;
+}
