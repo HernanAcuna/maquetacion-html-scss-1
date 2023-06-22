@@ -1,0 +1,7 @@
+@mixin tipo ($color, $size, $weight, $spacing){
+  color: $color;
+  font-weight: $weight;
+  font-family: "Monserrat", sans-serif;
+  letter-spacing: $spacing;
+  font-size: $size;
+}

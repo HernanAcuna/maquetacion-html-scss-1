@@ -1,6 +1,21 @@
 footer{
-  background-image: url("../assets/image/compu-1.jpg");
+  background-image: url("../assets/image/compu-1.png");
 
+}
+
+.container-right{
+
+  p{
+  color: white;
+  width: 46%;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  text-align: justify;
+  }
+}
+.left{
+  display: flex;
+  align-items: center;
 }
 
 
@@ -13,9 +28,23 @@ footer{
 
 .footer-contact, .footer-service, .footer-quick{
   display: flex;
+  gap: 1rem;
   flex-direction: column;
-  padding: 10px;
+  padding: .625rem;
+  color: white;
 
+}
+.footer-quick, .footer-service, .footer-contact {
+  ul{
+    list-style: none;
+    li{
+      padding-bottom: .3125rem;
+      a{
+        color: inherit;
+        text-decoration: none;        
+      }
+    }
+  }
 }
 
 .container-footer{
@@ -35,12 +64,17 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 20px;
+
 
   .section-right ul{
     display: flex;
     flex-direction: row;
     margin-right: 10px;
     gap: 20px;
+    a{
+      color: inherit;
+    }
     
     
     

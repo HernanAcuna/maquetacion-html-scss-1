@@ -1,8 +1,8 @@
 h1{
-  color: rgb(255, 255, 255);
+@include tipo (rgb(255, 255, 255), 35px, bold, 2px);
 }
 h2{
-  color: rgb(255, 255, 255);
+@include tipo (rgb(255, 255, 255), 15px, none, 1px);  
 }
 
 p{
