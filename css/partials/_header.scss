@@ -12,6 +12,9 @@ display: flex;
   align-content: center;
 }
 
+.navbar{
+  position: fixed;
+}
 nav {
   display: flex;
   width: 100%;
@@ -21,6 +24,21 @@ nav {
   padding: 15px 0px;
 
   color: #fff;
+}
+
+.navbar-padding{
+  padding-right: 100px;
+}
+.navbar-nav{
+  gap: 30px;
+  .nav-link{
+    color: white;
+    &:hover{
+     box-shadow: .1875rem .1875rem  .3125rem grey;
+    }
+  
+    
+  }
 }
 
 nav ul {
@@ -40,8 +58,5 @@ nav a {
   padding: 10px;
 }
 
-nav a:hover {
-  background-color: #fff;
-  color: #333;
-}
+
 
