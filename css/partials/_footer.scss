@@ -1,5 +1,8 @@
 footer{
-  background-image: url("../assets/image/compu-1.png");
+  background-image: url("../assets/image/footer-1.png");
+  background-position: 75%;
+  background-size: cover;
+  background-repeat: no-repeat;  
 
 }
 
@@ -15,6 +18,7 @@ footer{
 }
 .left{
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -26,7 +30,7 @@ footer{
 
 }
 
-.footer-contact, .footer-service, .footer-quick{
+.footer-contact, .footer-service, .footer-quick {
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -34,7 +38,7 @@ footer{
   color: white;
 
 }
-.footer-quick, .footer-service, .footer-contact {
+.footer-quick, .footer-service, .footer-contact  {
   ul{
     list-style: none;
     li{
@@ -46,13 +50,33 @@ footer{
     }
   }
 }
+.section-right{
+  ul{
+    color: white;
+    list-style: none;
+  }
+}
 
 .container-footer{
   display: flex;
 
 }
-.imagen-footer{
-  height: 80px;
+.div-logo-footer{
+  display: flex;
+  justify-content: center;
+  align-items: start
+  
+
+}
+.logo-firma{
+font-size: 3rem;
+  color: white;
+  padding-top: .625rem;
+  
+
+
+
+
 }
 .container-left{
   display: flex;

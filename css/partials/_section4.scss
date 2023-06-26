@@ -1,0 +1,45 @@
+.seccion4
+{
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "tarjeta1 tarjeta2 tarjeta5"
+  "tarjeta3 tarjeta4 tarjeta5"
+  ;
+
+}
+.tarjeta1{
+  grid-area: tarjeta1;
+  p, h2{
+    color: black;
+  }
+}
+.tarjeta2{
+  grid-area: tarjeta2;
+    p, h2{
+    color: black;
+  }
+}
+.tarjeta3{
+  grid-area: tarjeta3;
+    p, h2{
+    color: black;
+  }
+}
+.tarjeta4{
+  grid-area: tarjeta4;
+    p, h2{
+    color: black;
+  }
+}
+.tarjeta5{
+  grid-area: tarjeta5;
+    p, h2{
+    color: black;
+  }
+}
